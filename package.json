@@ -1,0 +1,48 @@
+{
+  "name": "ai-land-acquisition-predictor",
+  "version": "1.0.0",
+  "description": "AI-Powered Land Acquisition Delay Predictor Frontend",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "axios": "^1.4.0",
+    "recharts": "^2.7.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "chart.js": "^3.9.1",
+    "react-chartjs-2": "^4.3.1",
+    "tailwindcss": "^3.3.0",
+    "lucide-react": "^0.263.1",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
