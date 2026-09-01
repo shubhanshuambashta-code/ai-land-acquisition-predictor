@@ -1,4 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+/**
+ * TailwindCSS Configuration
+ * Defines the design system for the entire application
+ */
+
 module.exports = {
   content: [
     "./index.html",
@@ -57,13 +61,51 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
       },
       boxShadow: {
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
         md: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
         lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
         xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1)',
+        '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+      },
+      borderRadius: {
+        lg: '0.5rem',
+        xl: '0.75rem',
+        '2xl': '1rem',
+      },
+      spacing: {
+        px: '1px',
+        0: '0',
+        0.5: '0.125rem',
+        1: '0.25rem',
+        2: '0.5rem',
+        3: '0.75rem',
+        4: '1rem',
+        5: '1.25rem',
+        6: '1.5rem',
+        7: '1.75rem',
+        8: '2rem',
+        9: '2.25rem',
+        10: '2.5rem',
+      },
+      opacity: {
+        0: '0',
+        5: '0.05',
+        10: '0.1',
+        20: '0.2',
+        25: '0.25',
+        30: '0.3',
+        40: '0.4',
+        50: '0.5',
+        60: '0.6',
+        70: '0.7',
+        75: '0.75',
+        80: '0.8',
+        90: '0.9',
+        95: '0.95',
+        100: '1',
       },
     },
   },

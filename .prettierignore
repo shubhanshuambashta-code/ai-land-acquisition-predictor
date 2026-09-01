@@ -1,0 +1,10 @@
+.eslintrc.json
+node_modules/
+*.log
+.DS_Store
+.env
+.env.local
+.env.*.local
+build/
+dist/
+.cache
